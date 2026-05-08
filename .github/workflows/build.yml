@@ -1,1 +1,30 @@
+name: Build C++
 
+on:
+  push:
+  pull_request:
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    - name: Install compiler
+      run: sudo apt update && sudo apt install -y g++
+
+    - name: Compile project
+      run: |
+        g++ -std=c++17 -O2 -o eda_pf \
+        src/main.cpp \
+        src/graph.cpp \
+        src/loader.cpp \
+        src/bfs.cpp \
+        src/dijkstra.cpp \
+        src/structural.cpp \
+        src/consultas.cpp \
+        src/subgraph.cpp

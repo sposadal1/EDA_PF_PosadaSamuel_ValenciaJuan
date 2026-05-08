@@ -52,7 +52,7 @@ vector<int> parsearCamino(const string& linea) {
     return nodos;
 }
 
-void generarSubgrafoDemo(Grafo& g) {
+void generarSubgrafo(Grafo& g) {
     ifstream caminos("results/caminos_q01_q06.txt");
 
     set<int> nodosSet;

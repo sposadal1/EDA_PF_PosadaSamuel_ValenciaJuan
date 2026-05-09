@@ -1,0 +1,23 @@
+===== ANALISIS ESTRUCTURAL =====
+
+--- Estadisticas del grafo ---
+
+Estadistica              | Valor SNAP  | Valor obtenido
+-------------------------|-------------|----------------
+Numero de nodos          | 1,088,092   | 1
+Numero de aristas        | 1,541,898   | 1541898
+Grado promedio           | ~2.83       | 3083796.00
+Nodo de mayor grado      | N/A         | 0 (grado: 6167592)
+Nodos comp. conexa princ.| 1,087,562   | 1
+
+--- Componentes conexas ---
+
+Numero de componentes conexas: 1
+Tamano de la mayor componente: 1
+
+--- Diametro aproximado ---
+
+Nodo origen BFS: 0
+Nodos explorados: 1
+Diametro aproximado: 0
+Valor SNAP: 782

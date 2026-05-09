@@ -1,0 +1,11 @@
+===== ANALISIS SUBGRAFO =====
+
+Nodos subgrafo: 0
+Aristas subgrafo: 0
+
+===== MST (Kruskal) =====
+Peso total MST: 0
+Aristas MST: 0
+
+===== DAG =====
+El subgrafo SI es DAG

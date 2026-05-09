@@ -183,8 +183,8 @@ Durante el desarrollo del proyecto se utilizaron herramientas de inteligencia ar
 
 Se utilizó:
 
-* ChatGPT (OpenAI)
-* Claude AI (Anthropic)
+* ChatGPT 
+* Claude AI 
 
 Principalmente para:
 
